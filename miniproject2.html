@@ -1,72 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
-<style>
-	.body{
-		width: 100%;
-		display: inline-flex;
-	}
-	.planeleft{
-		width: 10%;
-	}
-	.working{
-		width:80%;
-	}
-	.planeright{
-		width: 10%;
-	}
-	nav{
-		display: inline-flex;
-		width: 100%;
-	}
-	nav .logo{
-		width: 20%;
-	}
-	section{
-		display: inline-flex;
-		width: 100%;
-	}
-	section img{
-		margin: 2px;
-	}
-	.features{
-		display: inline-flex;
-		width: 100%;
-	}
-	.star{
-		display: inline-flex;
-		width: 100%;
-	}
-	.cart{
-		background-color: lightblue;
-		font-size: 16px;
-	}
-	section div.girl{
-		display: inline-flex;
-		width: 50%;
-	}
-	section div.girl .clander .cal{
-		display: inline-flex;
-		
-	}
-	.blog{
-		width: 100%
-	}
-	section div .john{
-		display: inline-flex;
-	}
-	.footerdiv{
-		display: inline-flex;
-		width: 100%;
-
-	}
-	.footerdiv .list{
-		width: 25%;
-	}
-
-</style>
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <div>
@@ -77,25 +15,30 @@
 		<div class="logo">
 			<img src="img/layout-(1)_03.jpg" alt="logo">
 		</div>
+		<div>
+			<img src="img/search.jpg"></i>
+		</div>
 		<div class="menu">
-			<ul>
-				<li><i class="fas fa-search"></i></li>
+			
+				
 				<li>HOME</li>
 				<li>FASHION</li>
 				<li>ELECTRONICS</li>
 				<li>FEATURES</li>
 				<li>BUY PORTO!</li>
-			</ul>
+			
 		</div>
 		<div class="contact">
-			<i class="fas fa-search"></i>(+404)158 14 25 78 | CONTACT US<i class="fas fa-search"></i>
+			<p><i class="fas fa-search">
+			</i></p><p>(+404)158 14 25 78</p><p>|</p><p> CONTACT US</p><p><i class="fas fa-search" style="font-size: 20px";></i></p>
 		</div>
+
 	</nav>
 	<section>
-		<div>
+		<div class="dhonigrp">
 			<img src="img/layout-(1)_10.jpg" alt="dhonigrp">
 		</div>
-		<div>
+		<div class="dhonigrp">
 			<img src="img/layout-(1)_12.jpg" alt="dhoni">
 		</div>
 		<div>
@@ -104,46 +47,56 @@
 		</div>
 	</section>
 	<div class="features">
-		<div>FEATURES PRODUCTS</div>
-		<div>
+		<div class="name">FEATURES PRODUCTS</div>
+		<div class="line">
 			<img src="img/layout-(1)_22.jpg" alt="line">
 		</div>
-		<div>
+		<div class="slide">
+			<div>
 			<i class="fas fa-search"></i>
 			<i class="fas fa-search"></i>
+		</div>
 		</div>
 	</div>
-	<section>
-		<div>
+	<section class="product">
+		<div class="shoes">
 			<img src="img/layout-(1)_25.jpg">
-			<div>Item name</div>
-			<div class="star"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"></div>
-			<div class="star">
-				<img src="img/layout-(1)_38.jpg"><div class="cart"><img src="img/caart_03.jpg">cart</div><img src="img/layout-(1)_41.jpg">
+			<div class="name">Item Name</div>
+			<div class="star"><img src="img/star_05.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star_03.jpg"></div>
+			<div class="price">$75.00</div>
+		<div class="basket">
+				<img src="img/layout-(1)_38.jpg"><button style="background-color: lightblue;" type="button"><i class="fa fa-shopping-cart"></i>
+					<span class="text"> Add to Cart</span></button><img src="img/layout-(1)_41.jpg">
 			</div>
 		</div>
-		<div>
+		<div class="shoes">
 			<img src="img/layout-(1)_27.jpg">
-			<div>Item name</div>
-			<div class="star"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"></div>
-			<div class="star">
-				<img src="img/layout-(1)_38.jpg"><div class="cart"><img src="img/caart_03.jpg">cart</div><img src="img/layout-(1)_41.jpg">
+			<div class="name">Item Name</div>
+			<div class="star"><img src="img/star_05.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star_03.jpg"></div>
+			<div class="price">$75.00</div>
+			<div class="basket">
+				<img src="img/layout-(1)_38.jpg"><button style="background-color: lightblue;" type="button"><i class="fa fa-shopping-cart"></i>
+					<span class="text"> Add to Cart</span></button><img src="img/layout-(1)_41.jpg">
 			</div>
 		</div>
-		<div>
+		<div class="shoes">
 			<img src="img/layout-(1)_29.jpg">
-			<div>Item name</div>
-			<div class="star"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"></div>
-			<div class="star">
-				<img src="img/layout-(1)_38.jpg"><div class="cart"><img src="img/caart_03.jpg">cart</div><img src="img/layout-(1)_41.jpg">
+			<div class="name">Item Name</div>
+			<div class="star"><img src="img/star_05.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star_03.jpg"></div>
+			<div class="price">$75.00</div>
+			<div class="basket">
+				<img src="img/layout-(1)_38.jpg"><button style="background-color: lightblue;" type="button"><i class="fa fa-shopping-cart"></i>
+					<span class="text"> Add to Cart</span></button><img src="img/layout-(1)_41.jpg">
 			</div>
 		</div>
-		<div>
+		<div class="cream">
 			<img src="img/layout-(1)_31.jpg">
-			<div>Item name</div>
-			<div class="star"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"></div>
-			<div class="star">
-				<img src="img/layout-(1)_38.jpg"><div class="cart"><img src="img/caart_03.jpg">cart</div><img src="img/layout-(1)_41.jpg">
+			<div class="name">Item Name</div>
+			<div class="star"><img src="img/star_05.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star_03.jpg"></div>
+			<div class="price">$75.00</div>
+			<div class="basket">
+				<img src="img/layout-(1)_38.jpg"><button type="button"><i class="fa fa-shopping-cart"></i>
+					<span class="text"> Add to Cart</span></button><img src="img/layout-(1)_41.jpg">
 			</div>
 		</div>
 	</section>
@@ -152,19 +105,21 @@
 		<div>
 			<img src="img/layout-(1)_22.jpg" alt="line">
 		</div>
-		<div>
+		<div class="slide">
+			<div>
 			<i class="fas fa-search"></i>
 			<i class="fas fa-search"></i>
+		</div>
 		</div>
 	</div>
-	<section>
-		<div>
+	<section class="game">
+		<div class="ball">
 			<img src="img/layout-(1)_45.jpg">
 		</div>
-		<div>
+		<div class="ball">
 			<img src="img/layout-(1)_47.jpg">
 		</div>
-		<div>
+		<div class="ball">
 			<img src="img/layout-(1)_49.jpg">
 		</div>
 		<div>
@@ -178,68 +133,80 @@
 		</div>
 	</div>
 	<div>
-	<section>
-		<div>
+	<section class="six">
+		<div class="sixitem">
 			<img src="img/layout-(1)_56.jpg">
-			<div>Item name</div>
+			<div class="name">Item name</div>
 			<div class="star"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"></div>
+			<div class="price">$75.00</div>
 		</div>
-		<div>
+		<div class="sixitem">
 			<img src="img/layout-(1)_58.jpg">
-			<div>Item name</div>
+			<div class="name">Item name</div>
 			<div class="star"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"></div>
+			<div class="price">$75.00</div>
 		</div>
-		<div>
+		<div class="sixitem">
 			<img src="img/layout-(1)_60.jpg">
-			<div>Item name</div>
+			<div class="name">Item name</div>
 			<div class="star"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"></div>
+			<div class="price">$75.00</div>
 		</div>
-		<div>
+		<div class="sixitem">
 			<img src="img/layout-(1)_61.jpg">
-			<div>Item name</div>
+			<div class="name">Item name</div>
 			<div class="star"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"></div>
+			<div class="price">$75.00</div>
 		</div>
-		<div>
+		<div class="sixitem">
 			<img src="img/layout-(1)_63.jpg">
-			<div>Item name</div>
+			<div class="name">Item name</div>
 			<div class="star"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"></div>
+			<div class="price">$75.00</div>
 		</div>
 		<div>
 			<img src="img/layout-(1)_65.jpg">
-			<div>Item name</div>
+			<div class="name">Item name</div>
 			<div class="star"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"></div>
+			<div class="price">$75.00</div>
 		</div>
 	</section>
-	<section>
-		<div>
+	<section class="six">
+		<div class="sixitem">
 			<img src="img/layout-(1)_72.jpg">
-			<div>Item name</div>
+			<div class="name">Item name</div>
 			<div class="star"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"></div>
+			<div class="price">$75.00</div>
 		</div>
-		<div>
+		<div class="sixitem">
 			<img src="img/layout-(1)_73.jpg">
-			<div>Item name</div>
+			<div class="name">Item name</div>
 			<div class="star"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"></div>
+			<div class="price">$75.00</div>
 		</div>
-		<div>
+		<div class="sixitem">
 			<img src="img/layout-(1)_75.jpg">
-			<div>Item name</div>
+			<div class="name">Item name</div>
 			<div class="star"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"></div>
+			<div class="price">$75.00</div>
 		</div>
-		<div>
+		<div class="sixitem">
 			<img src="img/layout-(1)_76.jpg">
-			<div>Item name</div>
+			<div class="name">Item name</div>
 			<div class="star"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"></div>
+			<div class="price">$75.00</div>
 		</div>
-		<div>
+		<div class="sixitem">
 			<img src="img/layout-(1)_78.jpg">
-			<div>Item name</div>
+			<div class="name">Item name</div>
 			<div class="star"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"></div>
+			<div class="price">$75.00</div>
 		</div>
 		<div>
 			<img src="img/layout-(1)_79.jpg">
-			<div>Item name</div>
+			<div class="name">Item name</div>
 			<div class="star"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"></div>
+			<div class="price">$75.00</div>
 		</div>
 	</section>
 </div>
@@ -251,18 +218,20 @@
 
 	<div class="girl">
 		
-		<div>
+		<div class="girlimg">
 			<img src="img/layout-(1)_86.jpg">
 		</div>
-		<div class="clander">
-			<div class="cal">img</div>
-			<div class="cal">Post Format-Image Gallery</div>
-			<p>Euismod atras vulputate iltricies etri elit.Class aptent taciti sociosqu ad litora torquent...</p>
+		<div class="calander">
+			<div class="cal">
+			<div class="calimg">img</div>
+			<div class="calname">Post Format-Image Gallery</div>
+			</div>
+			<p class="calpara">Euismod atras vulputate iltricies etri elit.Class aptent taciti sociosqu ad litora torquent...</p>
 			<a href="#">Read more </a>
 		</div>
 	</div>
-	<div>
-		<div>HELLO</div>
+	<div class="client">
+		<div class="clientsay"><div class="stcomma"><img src="img/quma_03.jpg"></div><div class="johnpara">Hello,I want to thank you for creating a great template and for the exellent and quick support and help that yuo have been provind to me as I begin to work with it.</div><div class="encomma"><img src="img/quma_07.jpg"></div></div>
 		<div class="john">
 			<div>
 				<img src="img/fty_03.jpg">
@@ -281,13 +250,42 @@
 			<ul>
 				<li>Faq</li>
 				<li>Customer Service</li>
-				<li></li>
-				<li></li>
+				<li>Shopping Guide</li>
+				<li>Vero Mode Size Guide</li>
+				<li>Return Policy</li>
+				<li>Shopping And Delivery</li>
 			</ul>
 		</div>
-		<div class="list">helo</div>
-		<div class="list">helo</div>
-		<div class="list">helo</div>
+		<div class="list">
+			<ul>
+				<li>Contact Information</li>
+				<li>ADDRESS</li>
+				<li>123 Street Name City,England</li>
+				<li>PHONE</li>
+				<li>Email</li>
+				<li>mail@example</li>
+				<li>WORKING DAYS/HOURS</li>
+				<li>Mon - Sun/9:00AM - 8:00PM</li>
+			</ul>
+		</div>
+		<div class="list">
+			Follow Us
+			<ul>
+				<li>Facebook</li>
+				<li>Twitter</li>
+				<li>Pinterest</li>
+				<li>Instagram</li>
+				<li>Youtube</li>
+			</ul>
+		</div>
+		<div class="list">
+			Be The First To Know
+			<ul>
+				<li>Get all the latest information on Events , Sales and Offers.Sign up for newsletter today.</li>
+				<li>Enter your e-mail Address</li>
+				<input type="submit" name="submit">
+			</ul>
+		</div>
 	</div>
 	<div>
 		

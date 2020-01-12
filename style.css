@@ -1,0 +1,204 @@
+.body{
+		width: 100%;
+		display: inline-flex;
+	}
+.planeleft{
+		width: 10%;
+	}
+.working{
+		width:80%;
+	}
+.planeright{
+		width: 10%;
+	}
+	nav{
+		display: inline-flex;
+		width: 100%;
+		margin:12px 0px; 
+	}
+	nav .logo{
+		width: 25%;
+	}
+	nav .menu{
+		list-style-type: none;
+		display: inline-flex;
+		margin:15px 0px;
+		width: 48%;
+		font-family: sans-serif;
+	}
+	nav .menu li{
+		padding: 0px 16px;
+		font-size: 13px;
+		color: #64829c;
+		font-family: sans-serif;
+
+	}
+	nav div.contact{
+		width: 27%;
+		float: right;
+		display: inline-flex;
+	}
+	nav div.contact p{
+		padding: 0px 5px;
+		font-size: 14px;
+	
+	}
+	nav div.bag{
+		font-size: 10px;
+	}
+	section{
+		display: inline-flex;
+		width: 100%;
+	}
+	section .dhonigrp img{
+		margin-right: 5px;
+	}
+	.features{
+		display: inline-flex;
+		width: 100%;
+		margin: 20px 0px;
+		font-size: 16px;
+		color: #b3b4b9;
+	}
+	.features .name{
+		width: 18%;
+	}
+	
+	}
+	.features .slide{
+		width: 18%;
+	}
+	.features .slide div{
+		float: right;
+	}
+	.features .slide div i{
+		padding: 5px;
+	}
+	.product div.shoes{
+		margin-right: 20px;
+	}
+	.product .name{
+		text-align: center;
+		margin: 5px 0px;
+		font-size: 12px;
+		color: #808080;
+	}
+
+	.product .star{
+		display: inline-flex;
+		width: 100%;
+		justify-content: center;
+		margin: 5px 0px;
+	}
+	.product .price{
+		font-size: 20px;
+		text-align: center;
+		margin: 0px 5px;
+	}
+	.product .basket{
+		width: 100%;
+		justify-content: center;
+		display: inline-flex;
+	}
+	.product .basket button{
+		background-color: lightblue;
+	}
+
+	.game .ball img{
+		margin-right: 7.5px;
+		border:1px solid black;
+		
+	}
+	.game .ball p{	
+		position: absolute;
+		font-size: 25px;	
+	}
+	section .sixitem{
+		margin-right: 10px;
+	}
+	.six .name{
+		text-align: center;
+		margin: 5px 0px;
+		font-size: 12px;
+		color: #808080;
+	}
+
+	.six .star{
+		display: inline-flex;
+		width: 100%;
+		justify-content: center;
+		margin: 5px 0px;
+	}
+	.six .price{
+		font-size: 20px;
+		text-align: center;
+		margin: 0px 5px;
+	}
+	section div.girl{
+		display: inline-flex;
+		width: 50%;
+	}
+
+	.client{
+		width: 50%;
+	}	
+	
+	.blog{
+		width: 100%;
+		font-weight: bold;
+		color: #333;
+		font-family: sans-serif;
+	}
+	.girlimg{
+		border: 2px solid #f3f3f3;
+    margin-right: 5px;
+    padding: 3px;
+		height: 160px;
+
+	}
+	.calander{
+		margin-left: 10px;
+	}
+	.cal{
+		display: inline-flex;
+	}
+	.cal .calimg{
+		width: 25%;
+	}
+	.calander .calname{
+		font-size: 25px;
+		color: #4e95a5;
+    font-family: sans-serif;
+
+	}
+	.calander .calpara{
+		color: #6e7f93;
+		font-family:sans-serif;
+		    margin: 26px 0px;
+	}
+	.calander a{
+		color:#4e95a5;
+		text-decoration: none;
+		font-size: 21px;
+	}
+	.clientsay{
+		background-color: #64829c;
+		width: 100%;
+		color: white;
+		display: inline-flex;
+	
+	}
+	.clientsay .stcomma{
+		width: 15%;
+	}
+	section div .john{
+		display: inline-flex;
+	}
+	.footerdiv{
+		display: inline-flex;
+		width: 100%;
+
+	}
+	.footerdiv .list{
+		width: 25%;
+	}
