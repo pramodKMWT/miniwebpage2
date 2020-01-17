@@ -5,13 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
 <link rel="stylesheet" type="text/css" href="style.css">
+<script src="jquery-3.4.1.min.js"></script>
 </head>
 <body>
 <div>
 <div class="body"> 
-<div class="planeleft"></div>
-<div class="working">
-	<nav>
+<div class="main_wrapper">
+
+<!-- <div class="planeleft"></div> -->
+<!-- <div class="working"> -->
+	<header>
 		<div class="logo">
 			<img src="img/layout-(1)_03.jpg" alt="logo">
 		</div>
@@ -33,7 +36,7 @@
 			</i></p><p>(+404)158 14 25 78</p><p>|</p><p> CONTACT US</p><p><i class="fas fa-search" style="font-size: 20px";></i></p>
 		</div>
 
-	</nav>
+	</header>
 	<section>
 		<div class="dhonigrp">
 			<img src="img/layout-(1)_10.jpg" alt="dhonigrp">
@@ -43,7 +46,7 @@
 		</div>
 		<div>
 			<img src="img/layout-(1)_14.jpg" alt="goggle">
-			<img src="img/layout-(1)_16.jpg" alt="deals">
+			<img class="deals" src="img/layout-(1)_16.jpg" alt="deals">
 		</div>
 	</section>
 	<div class="features">
@@ -53,8 +56,8 @@
 		</div>
 		<div class="slide">
 			<div>
-			<i class="fas fa-search"></i>
-			<i class="fas fa-search"></i>
+			<div class="next"><i class="fas fa-search"></i></div>
+			<div class="prev"><i class="fas fa-search"></i></div>
 		</div>
 		</div>
 	</div>
@@ -89,7 +92,7 @@
 					<span class="text"> Add to Cart</span></button><img src="img/layout-(1)_41.jpg">
 			</div>
 		</div>
-		<div class="cream">
+		<div class="shoes">
 			<img src="img/layout-(1)_31.jpg">
 			<div class="name">Item Name</div>
 			<div class="star"><img src="img/star_05.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star_03.jpg"></div>
@@ -115,19 +118,23 @@
 	<section class="game">
 		<div class="ball">
 			<img src="img/layout-(1)_45.jpg">
+			<div class="center">CRIKET</div>
 		</div>
 		<div class="ball">
 			<img src="img/layout-(1)_47.jpg">
+			<div class="center">FITNESS</div>
 		</div>
 		<div class="ball">
 			<img src="img/layout-(1)_49.jpg">
+			<div class="center">FOOTBALL</div>
 		</div>
-		<div>
+		<div class="ball">
 			<img src="img/layout-(1)_51.jpg">
+			<div class="center">NETBALL</div>
 		</div>
 	</section>
 	<div class="features">
-		<div>BROWSE OUR CATEGORIES</div>
+		<div>JUST ARRIVED</div>
 		<div>
 			<img src="img/layout-(1)_22.jpg" alt="line">
 		</div>
@@ -137,37 +144,37 @@
 		<div class="sixitem">
 			<img src="img/layout-(1)_56.jpg">
 			<div class="name">Item name</div>
-			<div class="star"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"></div>
+			<div class="star"><img class="leftline" src="img/star_05.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img class="rightline" src="img/star_03.jpg"></div>
 			<div class="price">$75.00</div>
 		</div>
 		<div class="sixitem">
 			<img src="img/layout-(1)_58.jpg">
 			<div class="name">Item name</div>
-			<div class="star"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"></div>
+			<div class="star"><img class="leftline" src="img/star_05.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img class="rightline" src="img/star_03.jpg"></div>
 			<div class="price">$75.00</div>
 		</div>
 		<div class="sixitem">
 			<img src="img/layout-(1)_60.jpg">
 			<div class="name">Item name</div>
-			<div class="star"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"></div>
+			<div class="star"><img class="leftline" src="img/star_05.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img class="rightline" src="img/star_03.jpg"></div>
 			<div class="price">$75.00</div>
 		</div>
 		<div class="sixitem">
 			<img src="img/layout-(1)_61.jpg">
 			<div class="name">Item name</div>
-			<div class="star"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"></div>
+			<div class="star"><img class="leftline" src="img/star_05.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img class="rightline" src="img/star_03.jpg"></div>
 			<div class="price">$75.00</div>
 		</div>
 		<div class="sixitem">
 			<img src="img/layout-(1)_63.jpg">
 			<div class="name">Item name</div>
-			<div class="star"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"></div>
+			<div class="star"><img class="leftline" src="img/star_05.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img class="rightline" src="img/star_03.jpg"></div>
 			<div class="price">$75.00</div>
 		</div>
-		<div>
+		<div class="sixitem">
 			<img src="img/layout-(1)_65.jpg">
 			<div class="name">Item name</div>
-			<div class="star"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"></div>
+			<div class="star"><img class="leftline" src="img/star_05.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img class="rightline" src="img/star_03.jpg"></div>
 			<div class="price">$75.00</div>
 		</div>
 	</section>
@@ -175,52 +182,50 @@
 		<div class="sixitem">
 			<img src="img/layout-(1)_72.jpg">
 			<div class="name">Item name</div>
-			<div class="star"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"></div>
+			<div class="star"><img class="leftline" src="img/star_05.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img class="rightline" src="img/star_03.jpg"></div>
 			<div class="price">$75.00</div>
 		</div>
 		<div class="sixitem">
 			<img src="img/layout-(1)_73.jpg">
 			<div class="name">Item name</div>
-			<div class="star"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"></div>
+			<div class="star"><img class="leftline" src="img/star_05.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star_03.jpg"></div>
 			<div class="price">$75.00</div>
 		</div>
 		<div class="sixitem">
 			<img src="img/layout-(1)_75.jpg">
 			<div class="name">Item name</div>
-			<div class="star"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"></div>
+			<div class="star"><img class="leftline" src="img/star_05.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img class="rightline" src="img/star_03.jpg"></div>
 			<div class="price">$75.00</div>
 		</div>
 		<div class="sixitem">
 			<img src="img/layout-(1)_76.jpg">
 			<div class="name">Item name</div>
-			<div class="star"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"></div>
+			<div class="star"><img class="leftline" src="img/star_05.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img class="rightline" src="img/star_03.jpg"></div>
 			<div class="price">$75.00</div>
 		</div>
 		<div class="sixitem">
 			<img src="img/layout-(1)_78.jpg">
 			<div class="name">Item name</div>
-			<div class="star"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"></div>
+			<div class="star"><img class="leftline" src="img/star_05.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img class="rightline" src="img/star_03.jpg"></div>
 			<div class="price">$75.00</div>
 		</div>
-		<div>
+		<div class="sixitem">
 			<img src="img/layout-(1)_79.jpg">
 			<div class="name">Item name</div>
-			<div class="star"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"></div>
+			<div class="star"><img class="leftline" src="img/star_05.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img class="rightline" src="img/star_03.jpg"></div>
 			<div class="price">$75.00</div>
 		</div>
 	</section>
 </div>
-	<div class="features">
-		<div class="blog">LATEST BLOG POSTS</div>
-		<div class="blog">WHAT CLIENT'S SAY</div>
-	</div>
-<section>
+	
+<section class="clientmargin">
 
 	<div class="girl">
-		
+		<div class="blog">LATEST BLOG POSTS</div>
+		<div class="girlek">
 		<div class="girlimg">
-			<img src="img/layout-(1)_86.jpg">
-		</div>
+			<img src="img/layout-(1)_86.jpg"></div>
+		
 		<div class="calander">
 			<div class="cal">
 			<div class="calimg">img</div>
@@ -228,16 +233,22 @@
 			</div>
 			<p class="calpara">Euismod atras vulputate iltricies etri elit.Class aptent taciti sociosqu ad litora torquent...</p>
 			<a href="#">Read more </a>
-		</div>
+		</div></div>
 	</div>
 	<div class="client">
-		<div class="clientsay"><div class="stcomma"><img src="img/quma_03.jpg"></div><div class="johnpara">Hello,I want to thank you for creating a great template and for the exellent and quick support and help that yuo have been provind to me as I begin to work with it.</div><div class="encomma"><img src="img/quma_07.jpg"></div></div>
+		<div class="blog">WHAT CLIENT'S SAY</div>
+		
+		<div class="clientsay">
+			
+<blockquote>Hello,I want to thank you for creating a great template and for the exellent and quick support and help that yuo have been provind to me as I begin to work with it.</blockquote><div id="encomma"></div>
+		</div>
+		<div class="triangle"></div>
 		<div class="john">
-			<div>
+			<div class="johnimg">
 				<img src="img/fty_03.jpg">
 			</div>
-			<div>
-				<p>John smith</p>
+			<div class="johnpara">
+				<p class="johnpname">John Smith</p>
 				<p>ceo & Founder -Okler</p>
 			</div>
 		</div>
@@ -245,56 +256,77 @@
 </section>
 <footer>
 	<div class="footerdiv">
+		<div class="footerwidth">
 		<div class="list">
-			Help
-			<ul>
-				<li>Faq</li>
-				<li>Customer Service</li>
-				<li>Shopping Guide</li>
-				<li>Vero Mode Size Guide</li>
-				<li>Return Policy</li>
-				<li>Shopping And Delivery</li>
+			<div class="helplist">
+				<ul>
+			<li class="help">Help</li>
+			<br>
+			
+				<li><img src="img/footer-arrow.jpg"> Faq</li>
+				<li><img src="img/footer-arrow.jpg">Customer Service</li>
+				<li><img src="img/footer-arrow.jpg">Shopping Guide</li>
+				<li><img src="img/footer-arrow.jpg">Vero Mode Size Guide</li>
+				<li><img src="img/footer-arrow.jpg">Return Policy</li>
+				<li><img src="img/footer-arrow.jpg">Shopping And Delivery</li>
 			</ul>
+			</div>
 		</div>
-		<div class="list">
+		<div class="contactlist">
 			<ul>
-				<li>Contact Information</li>
-				<li>ADDRESS</li>
+				<li class="help">Contact Information</li><br>
+				<li class="link"><img src="img/location.jpg"> ADDRESS</li>
 				<li>123 Street Name City,England</li>
-				<li>PHONE</li>
-				<li>Email</li>
+				<li class="link"><img src="img/phone.jpg"> PHONE</li>
+				<li class="link"><img src="img/email.jpg"> Email</li>
 				<li>mail@example</li>
-				<li>WORKING DAYS/HOURS</li>
+				<li class="link"><img src="img/working.jpg"> WORKING DAYS/HOURS</li>
 				<li>Mon - Sun/9:00AM - 8:00PM</li>
 			</ul>
 		</div>
-		<div class="list">
-			Follow Us
-			<ul>
-				<li>Facebook</li>
-				<li>Twitter</li>
-				<li>Pinterest</li>
-				<li>Instagram</li>
-				<li>Youtube</li>
-			</ul>
-		</div>
-		<div class="list">
-			Be The First To Know
-			<ul>
-				<li>Get all the latest information on Events , Sales and Offers.Sign up for newsletter today.</li>
-				<li>Enter your e-mail Address</li>
-				<input type="submit" name="submit">
-			</ul>
-		</div>
-	</div>
-	<div>
+	
+	<div class="footerwidth2">
+		<div class="followlist">
+			
+			
+				<li class="help">Follow Us</li><br>
+				<li><img src="img/footer-arrow.jpg"> Facebook</li>
+				<li><img src="img/footer-arrow.jpg"> Twitter</li>
+				<li><img src="img/footer-arrow.jpg"> Pinterest</li>
+				<li><img src="img/footer-arrow.jpg"> Instagram</li>
+				<li><img src="img/footer-arrow.jpg"> Youtube</li>
+			
 		
+	</div></div>
+		<div class=" searchlist">
+			
+			
+				<li class="help">Be The First To Know</li><br>
+				<li class="link">Get all the latest information on Events , Sales and Offers.Sign up for newsletter today.</li><br>
+				<li class="link">Enter your e-mail Address</li>
+				<input type="submit" name="submit">
+			
+		</div>
 	</div>
+</div><div class="footerdiv">
+	<div class="footerdiv2">
+		<div class="div2img">
+			<img src="img/lay_94.jpg">
+		</div>
+		<div class="div2card">
+			<div class="div2move">
+			<img src="img/mastero.jpg"><img src="img/visa.jpg"></div>
+		</div>
+		<div class="div2copy">
+			<p>2015 Magento Demo Store .All Rights Reserved</p>
+		</div>
+	</div></div>
 </footer>
 </div>
-<div class="planeright">
+<!-- <div class="planeright"> -->
 	
 </div>
 </div></div>
+</div>
 </body>
 </html>
