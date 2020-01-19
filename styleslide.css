@@ -62,6 +62,10 @@
 	section .dhonigrp img{
 		margin-right: 5px;
 	}
+	section.dhoni img:hover{
+		box-shadow: 4px 4px 5px grey;
+		cursor: pointer;
+	}
 	.deals{
 		margin-top: 6px;
 	}
@@ -73,12 +77,11 @@
 		color: #b3b4b9;
 	}
 	.features .name{
-		width: 18%;
+		width: 40%;
 	}
 	
-	}
 	.features .slide{
-		width: 18%;
+		width: 10%;
 	}
 	.features .slide div{
 		float: right;
@@ -92,18 +95,29 @@
 			width: 100%;
 		position: relative;
 		overflow: hidden;
-		border: 5px solid white;
+		
 	}
 		.product{
 	position: relative;
 		transition:1s ease-in-out;
 	}
+.shadow{
+	width: 100%;
+
+	padding-right: 18px;
+}
 	.product div.shoes{
-		width: 25%;
+		width: 100%;
 		text-align: center;
-		padding: 0px 10px;
+		
 		float: left;
 	}
+	.product div.shoes:hover{
+		box-shadow:  1px 1px 10px grey, 0 0 2px grey, 0 0 2px grey; 
+width: 100%;
+cursor: pointer;
+	}
+
 	.next ,.prev {
 		padding: 0px 1px;
 		cursor: pointer;
@@ -130,7 +144,7 @@
 		display: inline-flex;
 		width: 100%;
 		justify-content: center;
-		margin: 5px 0px;
+		margin: 10px 0px;
 	}
 	.product .price{
 		font-size: 20px;
@@ -141,6 +155,7 @@
 		width: 100%;
 		justify-content: center;
 		display: inline-flex;
+		margin:15px 0px;
 	}
 /*	.basket .text{
 		color: #808080;
@@ -148,9 +163,34 @@
 	.product .basket button{
 		background-color: #64829c;
 	}
+	.game{
+	position: relative;
+		transition:1s ease-in-out;
+	}
+	.next2 ,.prev2 {
+		padding: 0px 1px;
+		cursor: pointer;
+		top:0%;
+		color: black;
+		
+		border: none;
+
+	}
+	.next2{
+		right: 0px;
+	}
+	.prev2{
+		left:0px;
+	}
 	.ball{
 		position: relative;
 		width: 25%;
+		text-align: center;
+		float: left;
+		cursor: pointer;
+	}
+	.ball img:hover{
+		box-shadow:  4px 4px 10px grey, 0 0 10px grey, 0 0 10px grey; 
 	}
 	.ball .center{
 		position: absolute;
@@ -175,6 +215,9 @@
 		    text-align: center;
     width: 17.3%;
 	}
+	section .sixitem:hover{
+		box-shadow:  4px 4px 10px grey, 0 0 10px grey, 0 0 10px grey; 
+	}
 	.firstsix{
 		width: 100%;
 	}
@@ -183,6 +226,9 @@
 	}
 	.rightline{
 		width: 25%;
+	}
+	.six{
+		margin:15px 0px;
 	}
 	.six .name{
 		text-align: center;
@@ -200,7 +246,7 @@
 	.six .price{
 		font-size: 20px;
 		text-align: center;
-		margin: 0px 5px;
+		margin: 10px 5px;
 	}
 	section.clientmargin{
 		    margin: 30px 0px;
@@ -409,4 +455,3 @@
 	.footerdiv2 .div2copy p{
 		float: right;
 		}
-
