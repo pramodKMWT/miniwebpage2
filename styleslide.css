@@ -11,6 +11,26 @@
 	color: #000;
 
 }
+.searchimg{
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black: 
+}
+.searchimg .searchbutton{
+	visibility: hidden;
+	width: 120px;
+	color: #fff;
+	text-align: center;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 0;
+	display: flex;
+
+}
+.searchimg:hover .searchbutton{
+	visibility: visible;
+}
+
 .planeleft{
 		width: 10%;
 	}
@@ -59,16 +79,7 @@
 		display: inline-flex;
 		width: 100%;
 	}
-	section .dhonigrp img{
-		margin-right: 5px;
-	}
-	section.dhoni img:hover{
-		box-shadow: 4px 4px 5px grey;
-		cursor: pointer;
-	}
-	.deals{
-		margin-top: 6px;
-	}
+	
 	.features{
 		display: inline-flex;
 		width: 100%;
