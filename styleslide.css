@@ -54,6 +54,7 @@
 		margin:15px 0px;
 		width: 48%;
 		font-family: sans-serif;
+		font-weight: 900;
 	}
 	header .menu li{
 		padding: 0px 16px;
@@ -61,6 +62,10 @@
 		color: #64829c;
 		font-family: sans-serif;
 
+
+	}
+	header .menu li i{
+		font-weight: 900;
 	}
 	header div.contact{
 		width: 27%;
@@ -70,6 +75,7 @@
 	header div.contact p{
 		padding: 0px 5px;
 		font-size: 14px;
+		color: #64829c;
 	
 	}
 	header div.bag{
@@ -78,6 +84,17 @@
 	section{
 		display: inline-flex;
 		width: 100%;
+		    justify-content: space-between;
+	}
+	.dhonigrp{
+		    justify-content: space-between;
+    display: flex;
+
+	}
+	.googles{
+		    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
 	}
 	
 	.features{
@@ -222,11 +239,12 @@ cursor: pointer;
 		position: absolute;
 		font-size: 25px;	
 	}
-	section .sixitem{
+	
+	.six .sixitem{
 		    text-align: center;
     width: 17.3%;
 	}
-	section .sixitem:hover{
+	.six .sixitem:hover{
 		box-shadow:  4px 4px 10px grey, 0 0 10px grey, 0 0 10px grey; 
 	}
 	.firstsix{
@@ -240,6 +258,8 @@ cursor: pointer;
 	}
 	.six{
 		margin:15px 0px;
+		display: inline-flex;
+		width: 100%;
 	}
 	.six .name{
 		text-align: center;
@@ -259,10 +279,10 @@ cursor: pointer;
 		text-align: center;
 		margin: 10px 5px;
 	}
-	section.clientmargin{
+	.clientmargin{
 		    margin: 30px 0px;
 	}
-	section div.girl{
+	.clientmargin div.girl{
 		
 		width: 50%;
 	}
@@ -349,7 +369,7 @@ cursor: pointer;
   margin-right: 200px;
 	}*/
 
-	section div .john{
+	.clientmargin div .john{
 		display: inline-flex;
 
 	}
